@@ -1,4 +1,103 @@
+/* 顶端 */
 .dingduan{
+	background: #f2f2f2;
 	width: 100%;
 	height: 1.06rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.36rem;
+	box-sizing: border-box;
+}
+.dingduan div{
+	font-size: 0.30rem;
+}
+	
+.dingduan img{
+	width: 0.64rem;
+	height: 0.64rem;
+}
+/* 内容 */
+	
+.neirong{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 1.92rem;
+	padding-top: 1.06rem;
+	display: flex;
+}
+.neirong .zuo{
+	width: 1.57rem;
+	height: 100%;
+	background: yellow;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: auto;
+}
+.neirong .zuo::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+.neirong .zuo .wenzi{
+	font-size: 0.2rem;
+	margin: 0.2rem 0;
+	color: #4d4d4d;
+}
+.neirong .you{
+	width: calc(100% - 1.57rem);
+	height: 100%;
+	box-sizing: border-box;
+}
+.neirong .you .tu{
+	box-sizing: border-box;
+	padding: 0.46rem 0.36rem;
+}
+.neirong .you .tu img{
+	width: 100%;
+	height: 100%;
+}
+.neirong .you .shouji{
+	padding: 0.72rem 0;
+	display: flex;
+	font-size: 0.3rem;
+	justify-content: center;
+	align-items: center;
+}
+.neirong .you .shouji>div{
+	width: 0.45rem;
+	height: 0.02rem;
+	background: #dfdfdf;
+}
+.neirong .you .shouji>span{
+	margin: 0 0.22rem;
+}
+.neirong .you .shili{
+	width: 100%;
+	height: 6.2rem;
+	padding: 0.62rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.neirong .you .shili .shangping{
+	width: 33%;
+	height: 50%;
+	font-size: 0.2rem;
+	text-align: center;
+}
+.neirong .you .shili .shangping .wenzi{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	padding: 0.25rem 0;
+}
+.neirong .you .shili .shangping img{
+	width: 1.5rem;
+	height: 1.5rem;
 }
