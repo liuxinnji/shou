@@ -24,3 +24,8 @@ a{
 .iconfont{
 	font-family:iconfont;
 }
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+}
