@@ -4,6 +4,8 @@
 	font-family: "微软雅黑","苹方";
 	font-style: normal;
 	font-weight: normal;
+	box-sizing: border-box;
+
 }
 ul,li{
 	list-style: none;

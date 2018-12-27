@@ -31,8 +31,7 @@
 }
 .neirong .zuo{
 	width: 1.57rem;
-	height: 100%;
-	background: yellow;
+	height: 100vh;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
