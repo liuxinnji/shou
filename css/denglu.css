@@ -1,0 +1,128 @@
+.shang{
+	padding-top: 1.03rem;
+	display: flex;
+	font-size: 0.48rem;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.shang .wenzi{
+	margin-top: 0.45rem;
+font-size: 0.45rem;	
+}
+.shang img{
+	flex: 0 0 auto
+}
+.shuru .zhanghao{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom:1px solid #d3d3d3 ;
+}
+.shuru .zhanghao input{
+	width: 7.31rem;
+	height: 1.52rem;
+	outline: none;
+	border: none;
+}
+.shuru .yanzheng{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom:1px solid #d3d3d3 ;
+}
+.shuru .yanzheng input{
+	width: 7.31rem;
+	height: 1.52rem;
+	outline: none;
+	border: none;
+}
+.shuru .yanzheng>a{
+	width: 3.08rem;
+	height: 1.52rem;
+	font-size: 0.35rem;
+	line-height: 1.52rem;
+	color: #2ea5e5;
+	text-align: center;
+}
+
+.dianji .denglu{
+	width: 9.29rem;
+	margin-top: 0.68rem;
+	padding: 0.4rem 0;
+	background: #ff6700;
+	color: #fff;
+	font-size: 0.52rem;
+	text-align: center;
+	border-radius:0.5rem ;
+}
+.dianji .zhuanhuan{
+	background: #fff;
+	border: 0.05rem solid #d3d3d3;
+	color: #000;
+}
+.qita{
+	margin-top: 1.54rem;
+	display: flex;
+	font-size: 0.31rem;
+	color: #b0b0b0;
+	align-items: center;
+}
+.qita>div{
+	width: 3.56rem;
+	height: 0.03rem;
+	background: #b0b0b0;
+}
+.tubiao{
+	width: 9.29rem;
+	height: 2.02rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tubiao div{
+	width: 0.85rem;
+	height: 0.85rem;
+	border-radius: 50%;
+	margin: 0 0.32rem;
+}
+.tubiao .weibo{
+	background: url(../img/tubiao.png) no-repeat;
+	background-color:#ed9090 ;
+	background-size:auto 0.70rem; 
+	background-position:-1.4rem center;
+	/* background: #ed9090; */
+}
+.tubiao .zhibubao{
+	background: url(../img/tubiao.png) no-repeat;
+	background-color:#6bb6ea ;
+	background-size:auto 0.60rem; 
+	background-position:-1.9rem center;
+}
+.tubiao .weixin{
+	background: url(../img/tubiao.png) no-repeat;
+	background-color:#00be00 ;
+	background-size:auto 0.650rem; 
+	background-position:-3.0rem center;
+}
+.diwenzi{
+	width: 9.29rem;
+	height: 1.2rem;
+	padding: 1.3rem 0;
+	font-size: 0.35rem;
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+
+}
+.diwenzi .shu{
+	width: 0.03rem;
+	height: 0.33rem;
+	background: #9b9b9b;
+	margin: 0 0.2rem;
+
+}
+.diwenzi .wenzia{
+	font-size: 0.4rem;
+	color: #9b9b9b;
+}

@@ -1,0 +1,28 @@
+.dingduan{
+	background: #f2f2f2;
+	width: 100%;
+	height: 1.06rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.36rem;
+	box-sizing: border-box;
+}
+.dingduan div{
+	font-size: 0.30rem;
+}
+	
+.dingduan img{
+	width: 0.64rem;
+	height: 0.64rem;
+}
+.neirong{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 1.92rem;
+	padding-top: 1.06rem;
+	display: flex;
+}
