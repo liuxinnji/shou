@@ -1,0 +1,55 @@
+.ding{
+	width: 100%;
+	height: 0.92rem;
+	background: #F2F2F2;
+	padding: 0 0.34rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ding .kuang{
+	width: 5.25rem;
+	height: 0.49rem;
+	/* border: 0.01rem solid #eaeaea; */
+}
+.ding .kuang input{
+	outline: none;
+	align-self: center;
+	border: 0.01rem solid #eaeaea;
+
+}
+.remen{
+	width: 100%;
+	height: 0.81rem;
+	padding: 0 0.34rem;
+	font-size: 0.22rem;
+	line-height: 0.81rem;
+}
+.biaoqian{
+	width: 100%;
+	
+	padding: 0 0.34rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.biaoqian span{
+	margin-left: 0.2rem;
+	margin-bottom: 0.2rem;
+	padding: 0.14rem 0.18rem;
+}
+.biaoqian .wenzia{
+	background: #fdf1f1;
+	border: 0.01rem solid #e8afb8;
+	font-size: 0.22rem;
+}
+.biaoqian .wenzib{
+	background: #e6f4e3;
+	border: 0.01rem solid #acbea6;
+	font-size: 0.22rem;
+}
+.biaoqian .wenzic{
+	background: #f4f4f4;
+	font-size: 0.22rem;
+}
