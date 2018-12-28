@@ -24,5 +24,60 @@
 	height: 100%;
 	padding-bottom: 1.92rem;
 	padding-top: 1.06rem;
+}
+.neirong .denglu{
+	width: 100%;
+	height: 1.57rem;
 	display: flex;
+	justify-content: space-between;
+	padding: 0 0.34rem;
+	line-height: 1.57rem;
+}
+.neirong .denglu .zuo{
+	font-size: 0.43rem;
+}
+.neirong .denglu .you{
+	font-size: 0.34rem;
+}
+.neirong .gouwukong{
+	height: 1.79rem;
+	width: 100%;
+	background: #ebebeb;
+	padding: 0 0.34rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.34rem;
+}
+.neirong .gouwukong img{
+	width: auto;
+	height: 1.12rem;
+}
+.neirong .gouwukong .wenzia{
+	padding: 0 0.2rem;
+	color: #ababab;
+}
+.neirong .gouwukong .wenzib{
+	padding: 0 0.1rem;
+	border: 0.02rem solid #c8c8c8;
+}
+.chatu img{
+	width: 100%;
+	height: 1.82rem;
+}
+.neirong .wupin{
+	width: 100%;
+	height: 7.2rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.4rem;
+}
+.neirong .wupin>div{
+	width: 49%;
+	height: 100%;
+	
+}
+.neirong .wupin img{
+	width: 5.34rem;
+	height: 5.34rem;
 }
