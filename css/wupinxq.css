@@ -308,3 +308,14 @@ img{
 	width: 0.58rem;
 	height: 0.56rem;
 }
+.top{
+	width: 1.06rem;
+	height: 1.06rem;
+	position: fixed;
+	bottom: 2.03rem;
+	right: 0.4rem;
+}
+.top img{
+	width: 1.06rem;
+	height: 1.06rem;
+}
