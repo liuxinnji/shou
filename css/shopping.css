@@ -39,6 +39,81 @@
 .neirong .denglu .you{
 	font-size: 0.34rem;
 }
+.neirong .shouji{
+	height: 4rem;
+	display: flex;
+}
+.neirong .shouji .duigou{
+	width: 0.6rem;
+	height:100%;
+	border-radius: 50%;
+	padding: 0 0.15rem;
+	margin-left: 0.1rem;
+	color: #ff6700;
+	font-size: 0.5rem;
+	text-align: left;
+	line-height: 3rem;
+	align-self: center;
+	
+}
+.neirong .shouji .chatu{
+	width: 3rem;
+	height: 3rem;
+	margin-left: 0.1rem;
+	border: 1px solid #eee;
+}
+.neirong .shouji .chatu img{
+	width: 2.86rem;
+	height: 2.86rem;
+}
+.neirong .shouji .xiangqing{
+	margin-left: 0.1rem;
+}
+.neirong .shouji .xiangqing .wenzia{
+	font-size: 0.4rem;
+}
+.neirong .shouji .xiangqing .wenzib{
+	font-size: 0.27rem;
+	color: #999;
+}
+.neirong .shouji .xiangqing .wenzic {
+	margin-top: 0.4rem;
+	align-self: flex-end;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.neirong .shouji .xiangqing .wenzic .zuo{
+	width: 2.70rem;
+	height: 0.9rem;
+	border: 0.01rem solid #ededed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.neirong .shouji .xiangqing .wenzic .zuo img{
+	width: 0.4rem;
+	height: 0.4rem;
+}
+.neirong .shouji .xiangqing .wenzic .zuo div{
+	display: flex;
+	width: 0.9rem;
+	height: 0.9rem;
+	justify-content: center;
+	align-items: center;
+	background: #fafafa;
+}
+.neirong .shouji .xiangqing .wenzic .you img{
+	width: 0.9rem;
+	height: 0.9rem;
+}
+.neirong .wenxin{
+	font-size: .22rem;
+    color: #999;
+    border-top: 1px solid #f6f6f6;
+    padding: .2rem .3rem;
+    text-align: left;
+}
 .neirong .gouwukong{
 	height: 1.79rem;
 	width: 100%;
@@ -80,4 +155,18 @@
 .neirong .wupin img{
 	width: 5.34rem;
 	height: 5.34rem;
+}
+.tab .left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.tab a{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f4f4f4;
 }
